@@ -1,0 +1,19 @@
+{
+    "server": {
+      "host": "localhost",
+      "port": "8000"
+    },
+   
+    "bing": {
+      "endpoint": "https://api.bing.microsoft.com/v7.0/search",
+      "token": "91c22ad2c6ee4872a6b3fbf620392386",
+      "resultlimit": 3,
+      "searchsuffix":"api openapi spec specification"
+    },
+    "colly": {
+      "maxdepth": 4,
+      "parallelism": 1,
+      "exclusionsregex": ".*(.jpg|.JPG|.gif|.GIF|.doc|.DOC|.pdf|.PDF|.md|.php|.xml|.js|.css|.json|.yaml|.java|.py|.txt|.ini|.sh|.yml|.zip|.cs)$",
+      "disallowedurlsregex": "(.+//swagger\\.io/.+)|(.+//github\\.com/OAI/.+)|(.+//www\\.openapi\\.org/.+)"
+    }
+  }
