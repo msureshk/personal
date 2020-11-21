@@ -6,7 +6,7 @@ json/yaml links
 
 ## main.go
 
-usage : http://127.0.0.1:8000/?qt=google pay
+usage : http://127.0.0.1:8000/?qt=google%20pay
 
 loads the config.json and initialises a Web server 
 handler accepts a query term for searching
